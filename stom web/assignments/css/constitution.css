@@ -1,0 +1,103 @@
+/* 
+CUSTOMIZE the following section as you wish
+Feel free to add additional styling if you wish
+DO NOT CHANGE the class names
+*/
+ body{
+    background-color: lightgray;
+    }
+.article {
+    font-family: Arial, Helvetica, sans-serif;
+   
+    /*font-weight: bold;*/
+    
+    /*background-color: lightblue;*/
+     max-width: 800px;
+    font-size: 20px;
+    margin: 25px;
+}
+
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.amendment {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    color: white;
+    max-width: 800px;
+    margin: 25px;
+}
+
+.emphasize {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 15%;
+}
+
+.keywords {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    font-size: 20px;
+    margin: 25px;
+    background-color: darkgrey;
+    color: white;
+}
+
+
+/* --------------------------------------- */
+/*        DO NOT MODIFY BELOW HERE         */
+/* --------------------------------------- */
+
+footer {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    color: dimgrey;
+    vertical-align: top
+}
+
+footer a {
+    text-decoration: none;    
+    font-size: 1em;    
+}
+
+footer a span {
+    background-color: orange;            
+    font-size: 2em;
+    vertical-align: text-bottom
+}
+
+
+footer a:hover {
+    color: crimson;
+}
+
+nav {
+    font-family: serif
+}
+
+nav:first-child {
+    margin-left: 1em;
+    float: left;
+    display: inline; 
+    width: auto;
+}
+
+nav:last-child {
+    margin-right: 1em;
+    float: right;
+}
+
+#backButton:before {
+/*    content: "\25C0 ";*/
+    content: "\2190 ";
+    font-size: 3em;
+}
+
+#nextButton:after {
+/*    content: "\25B6 ";*/
+    content: "\2192 ";
+    font-size: 3em;
+}
